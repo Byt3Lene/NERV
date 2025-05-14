@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #090A26;
+}
+
+.top-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1024px;
+    background-image: url("cyberpunk-neon-girl_1565054393\ 4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: flex-start;
+    position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 112px;
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav button{
+    padding: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+
+}
+
+nav img{
+    width: 24px;
+    height: 24px;
+}
+
+#signin{
+    background-color: white;
+    width: 150px;
+    height: 52px;
+    color: black;
+}
+
+#aboutUs{
+    border-bottom: 2px solid white;
+}
+
+.first-content{
+    width: 100%;
+    height: 497px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    line-height: 39px;
+}
+
+.pb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.first-content button{
+    width: 194px;
+    height: 48px;
+    padding: 13px 33px;
+    color: white;
+    background-color:  #5604AD;
+    border: none;
+    cursor: pointer
+}
+
+.plan{
+    width: 100%;
+    height: 1074px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+
+.background{
+    background-image: url(96398-neon-cyberpunk-artist-artwork-digital-art-hd-4k-artstation\ 1.png);
+    width: 100%;
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 119px;
+    line-height: 39px;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 150px;
+}
+
+.background button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 48px;
+    margin-left: 119px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:  #5604AD;
+    border: none;
+    cursor: pointer
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+hr{
+    width: 100%;
+    border: 2px solid #502356;
+}
+
+.top-side{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 65px;
+}
+
+
+.leftside{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+}
+
+.upper img{
+    width: 91px;
+    height: 48px;
+}
+
+.upper p{
+    color: white;
+}
+
+.socials{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 35px;
+    color: white;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-side{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.left-cont{
+    color: white;
+    font-weight: bolder;
+}

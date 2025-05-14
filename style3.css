@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #090A26;
+}
+
+.top-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1024px;
+    background-image: url(96398-neon-cyberpunk-artist-artwork-digital-art-hd-4k-artstation\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 112px;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav button {
+    padding: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+nav img {
+    width: 24px;
+    height: 24px;
+}
+
+#signin {
+    background-color: white;
+    width: 150px;
+    height: 52px;
+    color: black;
+}
+
+#contact {
+    border-bottom: 2px solid white;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    margin: 50 100;
+    border-radius: 10px;
+    color: white;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#h1 {
+    width: 272px;
+    height: 44px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#p {
+    width: 339px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#forText {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7E10B3;
+    color: white;
+    border: none;
+    padding: 13px 33px;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    background-color: #090A26;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border: 2px solid #502356;
+}
+
+.top-side {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 65px;
+}
+
+
+.leftside {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+}
+
+.upper img {
+    width: 91px;
+    height: 48px;
+}
+
+.upper p {
+    color: white;
+}
+
+.socials {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 32px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 35px;
+    color: white;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-side {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.left-cont {
+    color: white;
+    font-weight: bolder;
+}
